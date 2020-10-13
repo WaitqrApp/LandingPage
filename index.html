@@ -66,7 +66,7 @@
 
 		<div class="block lg:hidden pr-4">
 			<button id="nav-toggle" class="flex items-center p-1 text-orange-800 hover:text-gray-900">
-				<svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+				<svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menú</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
 			</button>
 		</div>
 
@@ -85,7 +85,7 @@
 					<a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#plans">Planes</a>
 				</li> -->
 			</ul>
-			<button id="navAction" class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 "  href="#contact">
+			<button id="navAction" class="mx-auto lg:mx-0 hover:underline bg-orange-500 text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow "  href="#contact">
 				
 				<a href="#contact">Contáctanos</a>
 			</button>
@@ -141,10 +141,11 @@
 
 <div id = "about">
 	<section class="bg-gray-100 py-8">
-		<div class="container max-w-5xl mx-auto m-8">
+		<div class="container max-w-5xl mx-auto m-12">
+			<br>
 			<h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">¿Quiénes somos?</h1>
 			<div class="w-full mb-4">	
-				<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+				<div class="h-3 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
 			</div>
 		
 			<div class="flex flex-wrap align-middle">
@@ -156,9 +157,6 @@
 					<br>
 					<br>
 					<br>
-					
-					
-					
 					<h3 class="text-3xl text-gray-800 font-bold leading-none mb-3 ">Somos la mejor versión de tu menú</h3>
 					<p class="text-gray-600 mb-8">Ofrecemos servicios digitales para restaurantes a través de una experiencia contactless para tus comensales<br /><br />
 									
@@ -282,11 +280,13 @@
 		
 <div id = "offer" >
 	<section class="bg-white border-b py-8">
-	
+			
+	<br>
+	<br>
 		<div  class="container mx-auto flex flex-wrap pt-4 pb-12">
 		
-			<h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">¿Qué hacemos?</h1>
-			<div class="w-full mb-4">	
+			<h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">¿Qué hacemos?</h1> 
+			<div class="w-full mb-12">	
 				<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
 			</div>
 		
@@ -475,7 +475,7 @@
 	
 		<h3 class="my-4 text-3xl leading-tight">Si necesitas una cotización especial o tienes dudas del producto</h3>	
 	
-		<button class="animate-bounce cursor-pointer mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"><a href="mailto:contacto@waitqrapp.com?Subject=Quiero saber mas de Waitqr"target = "_blank">Envíanos un correo</a></button>
+		<button class="animate-bounce cursor-pointer mx-auto lg:mx-0 hover:underline bg-orange-500 text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"><a href="mailto:contacto@waitqrapp.com?Subject=Quiero saber mas de Waitqr"target = "_blank">Envíanos un correo</a></button>
 			
 	</section>
 </div>
@@ -586,7 +586,7 @@
     if(scrollpos > 10){
       header.classList.add("bg-white");
 	  navaction.classList.remove("bg-white");
-	  navaction.classList.add("gradient");
+	  navaction.classList.add("bg-orange-500");
 	  navaction.classList.remove("text-gray-800");
 	  navaction.classList.add("text-white");
 	  //Use to switch toggleColour colours
@@ -601,7 +601,7 @@
     else {
 	  header.classList.remove("bg-white");
 	  navaction.classList.remove("gradient");
-	  navaction.classList.add("bg-white");
+	  navaction.classList.add("bg-orange-500");
 	  navaction.classList.remove("text-white");
 	  navaction.classList.add("text-gray-800");
 	  //Use to switch toggleColour colours
